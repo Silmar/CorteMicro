@@ -1,0 +1,565 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FAwidth1" xml:space="preserve">
+    <value>Free Area. [Width: </value>
+  </data>
+  <data name="FAwidth2" xml:space="preserve">
+    <value> Height: </value>
+  </data>
+  <data name="FAwidth3" xml:space="preserve">
+    <value>]</value>
+  </data>
+  <data name="Program_Productname" xml:space="preserve">
+    <value>CutMicro</value>
+  </data>
+  <data name="Status_Fail" xml:space="preserve">
+    <value>Status: Fail. Check your input.</value>
+  </data>
+  <data name="Panels_Area" xml:space="preserve">
+    <value>Panels Area</value>
+  </data>
+  <data name="Usable_Panels_Area" xml:space="preserve">
+    <value>Usable Panels Area</value>
+  </data>
+  <data name="Details_Area" xml:space="preserve">
+    <value>Details Area</value>
+  </data>
+  <data name="Status_OK" xml:space="preserve">
+    <value>Status: OK!</value>
+  </data>
+  <data name="m_2" xml:space="preserve">
+    <value>m^2</value>
+  </data>
+  <data name="AreaCalc" xml:space="preserve">
+    <value>AreaCalc</value>
+  </data>
+  <data name="Area_calculation" xml:space="preserve">
+    <value>Area calculation</value>
+  </data>
+  <data name="Cannot_undo_last_move" xml:space="preserve">
+    <value>Cannot undo last move</value>
+  </data>
+  <data name="Do_you_want_to_save_your_project_" xml:space="preserve">
+    <value>Do you want to save your project?</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="Delete_design_msg" xml:space="preserve">
+    <value>This will delete your design and allow you to edit materials.
+Continue?</value>
+  </data>
+  <data name="Are_you_sure_" xml:space="preserve">
+    <value>Are you sure?</value>
+  </data>
+  <data name="Invalid_value" xml:space="preserve">
+    <value>Invalid value</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="FloadErr" xml:space="preserve">
+    <value>File load error:
+</value>
+  </data>
+  <data name="__new_project_" xml:space="preserve">
+    <value> [new project]</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Duplicate" xml:space="preserve">
+    <value>Duplicate</value>
+  </data>
+  <data name="Calc_area" xml:space="preserve">
+    <value>Calc area</value>
+  </data>
+  <data name="Force_check" xml:space="preserve">
+    <value>Force check</value>
+  </data>
+  <data name="Rotate" xml:space="preserve">
+    <value>Rotate</value>
+  </data>
+  <data name="Do_not_rotate" xml:space="preserve">
+    <value>Do not rotate</value>
+  </data>
+  <data name="Materials" xml:space="preserve">
+    <value>Materials</value>
+  </data>
+  <data name="Width" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="Cut_from_left" xml:space="preserve">
+    <value>Cut from left</value>
+  </data>
+  <data name="Cut_from_right" xml:space="preserve">
+    <value>Cut from right</value>
+  </data>
+  <data name="Cut_from_up" xml:space="preserve">
+    <value>Cut from up</value>
+  </data>
+  <data name="Cut_from_down" xml:space="preserve">
+    <value>Cut from down</value>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="Panels" xml:space="preserve">
+    <value>Panels</value>
+  </data>
+  <data name="Can_be_rotated" xml:space="preserve">
+    <value>Can be rotated</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="Saw_Width__mm_" xml:space="preserve">
+    <value>Saw Width (mm)</value>
+  </data>
+  <data name="Design" xml:space="preserve">
+    <value>Design</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="Open_auto_save" xml:space="preserve">
+    <value>Open auto save</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Save_As" xml:space="preserve">
+    <value>Save As</value>
+  </data>
+  <data name="Start_calculating" xml:space="preserve">
+    <value>Start calculating</value>
+  </data>
+  <data name="Cancel_design" xml:space="preserve">
+    <value>Cancel design</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="Undo_last_move" xml:space="preserve">
+    <value>Undo last move</value>
+  </data>
+  <data name="Sort_workshop" xml:space="preserve">
+    <value>Sort workshop</value>
+  </data>
+  <data name="Clear_free_areas" xml:space="preserve">
+    <value>Clear free areas</value>
+  </data>
+  <data name="_File" xml:space="preserve">
+    <value>&amp;File</value>
+  </data>
+  <data name="_New" xml:space="preserve">
+    <value>&amp;New</value>
+  </data>
+  <data name="_Open" xml:space="preserve">
+    <value>&amp;Open</value>
+  </data>
+  <data name="Open_backup" xml:space="preserve">
+    <value>Open backup</value>
+  </data>
+  <data name="_Save" xml:space="preserve">
+    <value>&amp;Save</value>
+  </data>
+  <data name="Save__As" xml:space="preserve">
+    <value>Save &amp;As</value>
+  </data>
+  <data name="_Print" xml:space="preserve">
+    <value>&amp;Print</value>
+  </data>
+  <data name="Open_report_in__browser" xml:space="preserve">
+    <value>Open report in &amp;browser</value>
+  </data>
+  <data name="E_xit" xml:space="preserve">
+    <value>E&amp;xit</value>
+  </data>
+  <data name="_Edit" xml:space="preserve">
+    <value>&amp;Edit</value>
+  </data>
+  <data name="_Undo" xml:space="preserve">
+    <value>&amp;Undo</value>
+  </data>
+  <data name="Clear_free__areas" xml:space="preserve">
+    <value>Clear free &amp;areas</value>
+  </data>
+  <data name="Start_design" xml:space="preserve">
+    <value>Start design</value>
+  </data>
+  <data name="Delete_design" xml:space="preserve">
+    <value>Delete design</value>
+  </data>
+  <data name="_Tools" xml:space="preserve">
+    <value>&amp;Tools</value>
+  </data>
+  <data name="_Options" xml:space="preserve">
+    <value>&amp;Options</value>
+  </data>
+  <data name="_Help" xml:space="preserve">
+    <value>&amp;Help</value>
+  </data>
+  <data name="_About___" xml:space="preserve">
+    <value>&amp;About...</value>
+  </data>
+  <data name="INDEV_" xml:space="preserve">
+    <value>INDEV.</value>
+  </data>
+  <data name="Width_or_height_error" xml:space="preserve">
+    <value>Width or height error</value>
+  </data>
+  <data name="FREE" xml:space="preserve">
+    <value>FREE</value>
+  </data>
+  <data name="Error__" xml:space="preserve">
+    <value>Error: </value>
+  </data>
+  <data name="FSerr" xml:space="preserve">
+    <value>File saving error:
+</value>
+  </data>
+  <data name="Colors___Text" xml:space="preserve">
+    <value>Colors &amp; Text</value>
+  </data>
+  <data name="_1__234AaZz__567x890" xml:space="preserve">
+    <value>#1 [234AaZz] 567x890</value>
+  </data>
+  <data name="Font" xml:space="preserve">
+    <value>Font</value>
+  </data>
+  <data name="Freearea_hatch_color" xml:space="preserve">
+    <value>Freearea hatch color</value>
+  </data>
+  <data name="Text_color" xml:space="preserve">
+    <value>Text color</value>
+  </data>
+  <data name="Hatch_color" xml:space="preserve">
+    <value>Hatch color</value>
+  </data>
+  <data name="Line_color" xml:space="preserve">
+    <value>Line color</value>
+  </data>
+  <data name="Background_color" xml:space="preserve">
+    <value>Background color</value>
+  </data>
+  <data name="Behaviour" xml:space="preserve">
+    <value>Behaviour</value>
+  </data>
+  <data name="Shift" xml:space="preserve">
+    <value>Shift</value>
+  </data>
+  <data name="Shift_forces_to_ignore_cutting_line" xml:space="preserve">
+    <value>Shift forces to ignore cutting line</value>
+  </data>
+  <data name="Shift_forces_to_ignore_end_of_panel" xml:space="preserve">
+    <value>Shift forces to ignore end of panel</value>
+  </data>
+  <data name="Drop_and_freearea" xml:space="preserve">
+    <value>Drop and freearea</value>
+  </data>
+  <data name="Snap" xml:space="preserve">
+    <value>Snap to nearest detail.  Alt forces to find maximum area.</value>
+  </data>
+  <data name="Find_maximum" xml:space="preserve">
+    <value>Find maximum area.  Alt forces to snap to nearest detail.</value>
+  </data>
+  <data name="Associate" xml:space="preserve">
+    <value>Associate with .cpxml files</value>
+  </data>
+  <data name="Autosave" xml:space="preserve">
+    <value>Autosave</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Current_autosave_folder_size_" xml:space="preserve">
+    <value>Current autosave folder size:</value>
+  </data>
+  <data name="Autosave_every" xml:space="preserve">
+    <value>Autosave every</value>
+  </data>
+  <data name="minutes" xml:space="preserve">
+    <value>minutes</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="Detail_color" xml:space="preserve">
+    <value>Detail color</value>
+  </data>
+  <data name="PHRotate" xml:space="preserve">
+    <value>Rotate</value>
+  </data>
+  <data name="Sort_details" xml:space="preserve">
+    <value>Sort details</value>
+  </data>
+  <data name="Delete_free_areas" xml:space="preserve">
+    <value>Delete free areas</value>
+  </data>
+  <data name="Clear_details" xml:space="preserve">
+    <value>Clear details</value>
+  </data>
+  <data name="_Width_" xml:space="preserve">
+    <value>#{0} ({1}) [Width: {2}{3}{4}{5}</value>
+  </data>
+  <data name="Trim_Down" xml:space="preserve">
+    <value>Trim Down</value>
+  </data>
+  <data name="Trim_left" xml:space="preserve">
+    <value>Trim left</value>
+  </data>
+  <data name="Trim_right" xml:space="preserve">
+    <value>Trim right</value>
+  </data>
+  <data name="Trim_up" xml:space="preserve">
+    <value>Trim up</value>
+  </data>
+  <data name="_pcs__br_" xml:space="preserve">
+    <value> pcs)&lt;br&gt;</value>
+  </data>
+  <data name="_printing_report" xml:space="preserve">
+    <value> printing report</value>
+  </data>
+  <data name="Report_created_at__" xml:space="preserve">
+    <value>Report created at: </value>
+  </data>
+  <data name="Saw_width__" xml:space="preserve">
+    <value>Saw width: </value>
+  </data>
+  <data name="mm" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="Panels_" xml:space="preserve">
+    <value>Panels:</value>
+  </data>
+  <data name="Details_" xml:space="preserve">
+    <value>Details:</value>
+  </data>
+  <data name="You_have_total_" xml:space="preserve">
+    <value>You have total </value>
+  </data>
+  <data name="_details_with_area_" xml:space="preserve">
+    <value> details with area </value>
+  </data>
+  <data name="_m_2" xml:space="preserve">
+    <value> m^2</value>
+  </data>
+  <data name="__see_list_below__br_" xml:space="preserve">
+    <value> (see list below)&lt;br&gt;</value>
+  </data>
+  <data name="Unplaced_details__" xml:space="preserve">
+    <value>Unplaced details: </value>
+  </data>
+  <data name="Size__" xml:space="preserve">
+    <value>Size: </value>
+  </data>
+  <data name="_mm" xml:space="preserve">
+    <value> mm</value>
+  </data>
+  <data name="Trim__" xml:space="preserve">
+    <value>Trim: </value>
+  </data>
+  <data name="L_" xml:space="preserve">
+    <value>L </value>
+  </data>
+  <data name="R_" xml:space="preserve">
+    <value>R </value>
+  </data>
+  <data name="U_" xml:space="preserve">
+    <value>U </value>
+  </data>
+  <data name="D" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="Details__" xml:space="preserve">
+    <value>Details: </value>
+  </data>
+  <data name="Area_usage__" xml:space="preserve">
+    <value>Area usage: </value>
+  </data>
+  <data name="_m_2__" xml:space="preserve">
+    <value> m^2 (</value>
+  </data>
+  <data name="_of_" xml:space="preserve">
+    <value> of </value>
+  </data>
+  <data name="Details_edge_length__" xml:space="preserve">
+    <value>Details edge length: </value>
+  </data>
+  <data name="Details_on_this_panel___br_" xml:space="preserve">
+    <value>Details on this panel: &lt;br&gt;</value>
+  </data>
+  <data name="Panel__" xml:space="preserve">
+    <value>Panel #</value>
+  </data>
+  <data name="Detail_placing_not_started" xml:space="preserve">
+    <value>Detail placing not started</value>
+  </data>
+  <data name="End_of_report" xml:space="preserve">
+    <value>End of report</value>
+  </data>
+  <data name="Saw_Width_mm_" xml:space="preserve">
+    <value>Saw Width (mm)</value>
+  </data>
+  <data name="Delete_rows" xml:space="preserve">
+    <value>Delete rows</value>
+  </data>
+  <data name="Clean" xml:space="preserve">
+    <value>Clean</value>
+  </data>
+  <data name="File_not_found" xml:space="preserve">
+    <value>File not found</value>
+  </data>
+  <data name="Cannot_redo_last_move" xml:space="preserve">
+    <value>Cannot redo last move</value>
+  </data>
+  <data name="Sort_details_height" xml:space="preserve">
+    <value>Sort details by height</value>
+  </data>
+  <data name="Sort_details_id" xml:space="preserve">
+    <value>Sort details by ID</value>
+  </data>
+  <data name="Sort_details_width" xml:space="preserve">
+    <value>Sort details by width</value>
+  </data>
+  <data name="Auto_design_msg" xml:space="preserve">
+    <value>This will delete your design and create new.
+Continue?</value>
+  </data>
+</root>

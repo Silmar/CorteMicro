@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="CutMicro.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <userSettings>
+        <CutMicro.Properties.Settings>
+            <setting name="TextFont" serializeAs="String">
+                <value>Arial, 8.25pt</value>
+            </setting>
+            <setting name="AltX" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="FontColor" serializeAs="String">
+                <value>White</value>
+            </setting>
+            <setting name="LineColor" serializeAs="String">
+                <value>White</value>
+            </setting>
+            <setting name="FAHatchColor" serializeAs="String">
+                <value>Teal</value>
+            </setting>
+            <setting name="BackColor" serializeAs="String">
+                <value>DarkGoldenrod</value>
+            </setting>
+            <setting name="BackHatchColor" serializeAs="String">
+                <value>Olive</value>
+            </setting>
+            <setting name="DetailColor" serializeAs="String">
+                <value>Firebrick</value>
+            </setting>
+            <setting name="SuperShift" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="Autosave" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="AutoInterval" serializeAs="String">
+                <value>5</value>
+            </setting>
+        </CutMicro.Properties.Settings>
+    </userSettings>
+</configuration>

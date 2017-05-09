@@ -1,0 +1,10 @@
+D:\ctmc\ctmc\0.1.0.0\CPanel\obj\Debug\ResolveAssemblyReference.cache
+D:\ctmc\ctmc\0.1.0.0\CPanel\bin\Debug\CPanel.dll
+D:\ctmc\ctmc\0.1.0.0\CPanel\bin\Debug\CPanel.pdb
+D:\ctmc\ctmc\0.1.0.0\CPanel\obj\Debug\CPanel.dll
+D:\ctmc\ctmc\0.1.0.0\CPanel\obj\Debug\CPanel.pdb
+C:\Users\jatoserver\Documents\cutpro\ctmc-code\CPanel\bin\Debug\CPanel.dll
+C:\Users\jatoserver\Documents\cutpro\ctmc-code\CPanel\bin\Debug\CPanel.pdb
+C:\Users\jatoserver\Documents\cutpro\ctmc-code\CPanel\obj\Debug\CPanel.dll
+C:\Users\jatoserver\Documents\cutpro\ctmc-code\CPanel\obj\Debug\CPanel.pdb
+C:\Users\jatoserver\Documents\cutpro\ctmc-code\CPanel\obj\Debug\CPanel.csprojResolveAssemblyReference.cache
